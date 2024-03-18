@@ -1,16 +1,12 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-  * {
-    font-family: "Josefin Slab", serif;
-  }
 
   body{
     background-color: #f5f5f5;
     height: 100vh;
     box-sizing: border-box;
 }
-
 `
 
 const XSMALL_SIZE = '600px'
